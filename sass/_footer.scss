@@ -1,0 +1,19 @@
+footer{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  border: 1px solid $secondary;
+  background: $tertiary;
+
+}
+.footer-notice{
+  font-size: 1.2rem;
+  background: none;
+  color:$secondary;
+
+}
+.footer-copyright{
+  font-size: 1rem;
+  color:$secondary;
+  background: none;
+}

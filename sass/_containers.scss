@@ -1,0 +1,33 @@
+body{
+  background: $primary;
+}
+
+.row{
+  @include dimension(100%,auto);
+  padding: 10px;
+}
+.clearfix::after{
+  clear:both;
+  display: table;
+  content:"";
+}
+.col{
+  float:left;
+}
+
+div, nav, header, footer{
+  height:auto;
+  min-width:100px;
+  padding: 10px;
+}
+.header-socialLinks{
+  float:right;
+}
+.container{
+  // width:80%;
+  // margin:auto;
+}
+
+.gallery{
+  margin: 100px auto;
+}

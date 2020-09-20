@@ -1,0 +1,11 @@
+.top-nav{
+  @include containerStyle(100%, 100vh, $primary, 1px solid $secondary, 0px, 0, 0);
+  @include overlay(2, fixed, 0, 0, auto, auto,);
+  ul{
+    margin-top: 10%;
+  }
+  .top-nav-list{
+    @include buttonStyle(50%, 200px, none, 20px, 40% auto, auto, 4rem, bold, $tertiary, none, 0, center);
+    line-height: 20px;
+  }
+}

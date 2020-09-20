@@ -1,0 +1,9 @@
+button{
+  @include buttonStyle(120px, 40px, 2px solid $secondary,  40px, 10px, 20px, 2rem, bold, $tertiary, $secondary, 0, center);
+
+
+}
+
+button:hover{
+  padding: 20px;
+}

@@ -1,0 +1,64 @@
+// dimension
+@mixin dimension($w,$h){
+  width: $w;
+  height: $h;
+}
+
+// textStyle
+@mixin textStyle($fs, $fw, $c, $back, $border, $bRadius, $lh, $ls, $ta){
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+  background: $back;
+  border: $border;
+  border-radius: $bRadius;
+  line-height: $lh;
+  letter-spacing: $ls;
+  text-align: $ta;
+}
+
+// imageStyle
+@mixin imageStyle($w, $h, $m, $d, $border, $bRadius){
+  width:$w;
+  height:$h;
+  margin:$m;
+  display: $d;
+  border: $border;
+  border-radius: $bRadius;
+}
+
+// buttonStyle
+@mixin buttonStyle($w, $h, $border, $bRadius, $p, $m, $fs, $fw, $c, $back, $ls, $ta){
+  width:$w;
+  height:$h;
+  border: $border;
+  border-radius: $bRadius;
+  padding: $p;
+  margin: $m;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+  background: $back;
+  letter-spacing: $ls;
+  text-align: $ta;
+}
+
+// containerStyle
+@mixin containerStyle($w, $h, $back, $border, $bRadius, $p, $m){
+  width: $w;
+  height: $h;
+  background: $back;
+  border: $border;
+  border-radius: $bRadius;
+  padding: $p;
+  margin: $m;
+}
+
+@mixin overlay($z, $p, $t, $l, $b, $r){
+  z-index: $z;
+  position: $p;
+  top : $t;
+  left: $l;
+  bottom: $b;
+  right: $r;
+}
