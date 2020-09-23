@@ -1,0 +1,150 @@
+.contact-container {
+  width: 100vw;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cont-header-con {
+  width: 100vw;
+  height: 150px;
+  background: #3D2923;
+  padding: 0;
+}
+
+.cont-header{
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.form-container {
+  width: 40%;
+  height: 305px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.form-section {
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  padding: 0;
+  margin: 14px 0;
+}
+
+.form-input {
+  width: 100%;
+  height: 100%;
+  color: #254D88;
+  border: none;
+  outline: none;
+  padding: 10px 0 0 15px;
+  font-size: 14px;
+}
+
+.form-label {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  color: #3D2923;
+  font-size: 14px;
+}
+
+.form-content {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus + .form-label .form-content,
+.form-input:valid + .form-label .form-content {
+  transform: translateY(-120%);
+  font-size: 11px;
+  font-weight: 300;
+  color: #3D2923;
+}
+
+.submit-btn {
+  position: absolute;
+  right: 14px;
+  bottom: 0;
+  width: 25%;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  height: 50px;
+  margin: 0 0 0 30%;
+  text-transform: uppercase;
+  color: #fff;
+  background: #254D88;
+  border: 2px solid #254D88;
+  outline: none;
+  padding: 0;
+}
+
+.submit-btn:hover, .sumbit-btn:focus {
+  padding: 0;
+  color: #254D88;
+  background: none;
+  border: 2px solid #254D88;
+  transition: all .4s ease;
+}
+
+.contact-info-con {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #DBD0C1;
+}
+
+.contact-details-container {
+  height: 300px;
+  margin-bottom: 100px;
+  width: 40%;
+  color: #254D88;
+}
+
+.website-address a:link{
+  font-size: 25px;
+  font-weight: 700;
+  color: #254D88;
+}
+
+.website-address {
+  padding: 20px 0 0 0;
+}
+
+.campus-location {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.phone-number {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.phone-title {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.website-address a:link:hover, .website-address a:link:focus {
+  color: #3D2923;
+  text-decoration: none;
+  transition: all .3s ease;
+
+}
