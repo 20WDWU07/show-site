@@ -31,7 +31,9 @@ a:hover {
   text-decoration-color: white; }
 
 h1 {
-  font-weight: 800; }
+  font-weight: 800;
+  color: white;
+  text-align: center; }
 
 h3 {
   font-weight: 400; }
@@ -49,6 +51,9 @@ p {
 
 .home-text {
   padding: 40px; }
+
+.title {
+  background: #3D2923; }
 
 button {
   width: 120px;
@@ -114,7 +119,6 @@ div, nav, header, footer {
   margin: 50px auto;
   display: block;
   width: 90%;
-  transform: skewY(-30deg);
   border-radius: 0 30%; }
 
 .header-social, .top-nav-close {
@@ -160,7 +164,9 @@ div, nav, header, footer {
   top: 0; }
 
 footer {
-  bottom: 0;
+
+  
+
   width: 100%;
   border: 1px solid black;
   background: whitesmoke; }
