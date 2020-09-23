@@ -52,6 +52,9 @@ p {
 .home-text {
   padding: 40px; }
 
+.title {
+  background: #3D2923; }
+
 button {
   width: 120px;
   height: 40px;
@@ -116,7 +119,6 @@ div, nav, header, footer {
   margin: 50px auto;
   display: block;
   width: 90%;
-  transform: skewY(-30deg);
   border-radius: 0 30%; }
 
 .header-social, .top-nav-close {
