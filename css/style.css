@@ -143,9 +143,7 @@ body {
 
 li {
   list-style: none;
-  margin: 10px 15px;
-  font-weight: 80;
-  font-style: italic; }
+  margin: 10px 15px; }
 
 a {
   text-decoration: none; }
@@ -171,6 +169,7 @@ h1 {
 h3 {
   font-weight: 400; }
 
+
 p {
   font-size: 2rem;
   font-weight: 100;
@@ -181,6 +180,7 @@ p {
   line-height: 40px;
   letter-spacing: 1px;
   text-align: center; }
+
 
 .home-text {
   padding: 40px; }
@@ -194,6 +194,88 @@ p {
 
 
 
+.title h1 {
+  margin: 3%;
+  padding: 20px; }
+
+#coffee-project {
+  margin: 10%; }
+
+.para-coff {
+  text-align: center;
+  margin: 10px;
+  margin-top: -75px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 30px; }
+
+.list-tasks {
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 30px;
+  width: 80%; }
+
+.list-tasks-two {
+  padding: 10px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  font-size: 30px;
+  width: 80%;
+  text-align: center; }
+
+iframe {
+  margin: 40px auto;
+  display: block; }
+
+.row-coff {
+  width: 100%;
+  background-color: #DBD0C1; }
+
+.col-one {
+  float: left;
+  background: white;
+  width: 45%;
+  height: 400px;
+  margin-right: 70px;
+  border-radius: 25px; }
+
+.col-two {
+  float: left;
+  background: white;
+  border-radius: 25px;
+  width: 45%;
+  height: 400px; }
+
+.header-coff {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  color: #3D2923; }
+
+.tittle-coff-h {
+  font-size: 40px; }
+
+.color-names {
+  color: white; }
+
+@media only screen and (max-width: 1153px) {
+  .col-one, .col-two {
+    height: 500px; } }
+@media only screen and (max-width: 902px) {
+  .col-one, .col-two {
+    height: 600px;
+    width: 40%; } }
+@media only screen and (max-width: 899px) {
+  iframe {
+    display: none; } }
+@media only screen and (max-width: 766px) {
+  .col-one, .col-two {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px; } }
+@media only screen and (max-width: 400px) {
+  .col-one, .col-two {
+    height: 600px; } }
 button {
   width: 120px;
   height: 40px;
@@ -211,13 +293,11 @@ button {
 button:hover {
   padding: 20px; }
 
-body {
-  background: gray; }
-
 .row {
   width: 100%;
   height: auto;
-  padding: 10px; }
+  padding: 10px;
+  border: 1px solid red; }
 
 .clearfix::after {
   clear: both;
@@ -490,6 +570,10 @@ footer {
 
   .col-lg-12 {
     width: 100%; } }
+
+body {
+  background-color: #DBD0C1; }
+
 .gallery-header {
   background: #3D2923;
   text-align: center;
@@ -532,5 +616,6 @@ footer {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%; } }
+
 
 /*# sourceMappingURL=style.css.map */
