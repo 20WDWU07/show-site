@@ -1,10 +1,11 @@
-body{
-  background: $primary;
-}
+// body{
+//   background: $primary;
+// }
 
 .row{
   @include dimension(100%,auto);
   padding: 10px;
+  border: 1px solid red;
 }
 .clearfix::after{
   clear:both;
@@ -23,10 +24,10 @@ div, nav, header, footer{
 .header-socialLinks{
   float:right;
 }
-.container{
-  // width:80%;
-  // margin:auto;
-}
+// .container{
+//   // width:80%;
+//   // margin:auto;
+// }
 
 .gallery{
   margin: 100px auto;
