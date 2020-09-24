@@ -1,6 +1,7 @@
 @import 'reset';
 @import 'variables';
 @import 'mixins';
+@import 'contact';
 @import 'typography';
 @import 'buttons';
 @import 'containers';
@@ -12,11 +13,13 @@
 @import 'mobile';
 @import 'tablet';
 @import 'desktop';
+@import 'gallery';
 
-//vendor prefixed rules
+
+
 body{
   background-color: #DBD0C1;
 }
 
-// #resizable { width: 150px; height: 150px; padding: 0.5em; }
-// #resizable h3 { text-align: center; margin: 0; }
+
+

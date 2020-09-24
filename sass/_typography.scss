@@ -35,9 +35,16 @@ h3{
   font-weight: 400;
 }
 
+
+p{
+  @include textStyle(2rem, 100, black, white, none, 20px, 40px, 1px, center);
+  
+}
+
 .home-text{
   padding: 40px;
 }
+
 
 .title{
   background: #3D2923;
@@ -152,6 +159,13 @@ iframe {
     margin-top: 20px;
   }
 }
+
+// .heading {
+//   text-align: center;
+//   color: white;
+//   font-size: 1.5rem;
+//   margin: 30px;
+
 
 @media only screen and (max-width: 400px) {
   .col-one, .col-two {

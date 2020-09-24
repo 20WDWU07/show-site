@@ -3,14 +3,13 @@
 
 }
 .header-banner{
-  // position: absolute;
-  // top:300px;
+  padding: 0;
+
 }
 
 .header-banner-image{
-  @include imageStyle(70vw, auto, auto, block, none, 0 );
-
-
+  @include imageStyle(100vw, auto, auto, block, none, 0 );
+  overflow: hidden;
 }
 .gallery-coffee-image{
   margin: 50px auto;

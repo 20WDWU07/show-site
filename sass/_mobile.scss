@@ -38,7 +38,33 @@
   width: 100%/12*12;
 }
 a:link{
-  
+
   font-size:1.5rem;
+}
+
+
+// contact Page
+.cont-header-con {
+  height: 80px;
+}
+
+.cont-header {
+  font-size: 20px;
+  line-height: 80px;
+}
+
+.form-container {
+  width: 85%;
+  margin: 20px 0;
+}
+
+.submit-btn {
+  width: 35%;
+}
+
+.contact-details-container {
+  width: 85%;
+  margin-bottom: 150px;
+  height: 350px;
 }
 }//media
