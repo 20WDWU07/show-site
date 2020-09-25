@@ -169,7 +169,6 @@ h1 {
 h3 {
   font-weight: 400; }
 
-
 p {
   font-size: 2rem;
   font-weight: 100;
@@ -181,18 +180,11 @@ p {
   letter-spacing: 1px;
   text-align: center; }
 
-
 .home-text {
   padding: 40px; }
 
-
-.heading {
-  text-align: center;
-  color: white;
-  font-size: 1.5rem;
-  margin: 30px; }
-
-
+.title {
+  background: #3D2923; }
 
 .title h1 {
   margin: 3%;
@@ -401,9 +393,6 @@ div, nav, header, footer {
   padding: 0; }
 
 footer {
-
-  
-
   width: 100%;
   border: 1px solid black;
   background: whitesmoke; }
@@ -570,10 +559,6 @@ footer {
 
   .col-lg-12 {
     width: 100%; } }
-
-body {
-  background-color: #DBD0C1; }
-
 .gallery-header {
   background: #3D2923;
   text-align: center;
@@ -616,6 +601,7 @@ body {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%; } }
-
+body {
+  background-color: #DBD0C1; }
 
 /*# sourceMappingURL=style.css.map */
