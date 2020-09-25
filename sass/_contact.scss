@@ -17,6 +17,7 @@
   line-height: 150px;
   text-align: center;
   color: #fff;
+  margin-top: 10px;
 }
 
 .form-container {
@@ -47,7 +48,7 @@
   border: none;
   outline: none;
   padding: 10px 0 0 15px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .form-label {
@@ -81,15 +82,15 @@
   right: 14px;
   bottom: 0;
   width: 25%;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   border-radius: 10px;
   height: 50px;
   margin: 0 0 0 30%;
   text-transform: uppercase;
   color: #fff;
-  background: #254D88;
-  border: 2px solid #254D88;
+  background: $primary;
+  // border: 2px solid #254D88;
   outline: none;
   padding: 0;
 }
@@ -127,14 +128,16 @@
 }
 
 .campus-location {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 500;
   padding: 20px 0;
+  color: $primary;
 }
 
 .phone-number {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
+  color: $primary;
 }
 
 .phone-title {

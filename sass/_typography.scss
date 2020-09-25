@@ -11,6 +11,7 @@ li{
 a{
   text-decoration: none;
 }
+
 a:link{
   color: $secondary;
   font-weight:  400;
@@ -36,18 +37,18 @@ h3{
 }
 
 
-p{
-  @include textStyle(2rem, 100, black, white, none, 20px, 40px, 1px, center);
-  
-}
-
 .home-text{
-  padding: 40px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.3rem;
 }
 
 
 .title{
   background: #3D2923;
+  border: 1px solid red;
+  width: 100%;
 }
 
 .title h1{
@@ -56,7 +57,7 @@ p{
 }
 
 #coffee-project {
-  margin: 10%;
+  margin: 50px;
 }
 
 .para-coff {
@@ -71,19 +72,22 @@ p{
 .list-tasks {
   padding: 10px;
   margin: 10px auto;
-  font-size: 30px;
+  font-size: 1.2rem;
   // text-align: left;
   // border: 1px solid red;
-  width: 80%;
+  width: 40%;
+  li {
+    list-style: disc;
+  }
 }
 
 .list-tasks-two {
   padding: 10px;
   margin: 10px auto;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 1.2rem;
   // border: 1px solid red;
-  width: 80%;
+  width: 50%;
   text-align: center;
 }
 
@@ -93,7 +97,10 @@ iframe {
 }
 
 .row-coff {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  display: block;
+  // height:
   background-color: #DBD0C1;
   // border: 1px solid blue;
 }
@@ -102,7 +109,7 @@ iframe {
   float: left;
   background: white;
   width: 45%;
-  height: 400px;
+  // max-height: 800px;
   // border: 1px solid red;
   margin-right: 70px;
   border-radius: 25px;
@@ -113,7 +120,7 @@ iframe {
   background: white;
   border-radius: 25px;
   width: 45%;
-  height: 400px;
+  // max-height: 800px;
   // border: 1px solid red;
 }
 
@@ -132,43 +139,18 @@ iframe {
   color: white;
 }
 
-@media only screen and (max-width: 1153px) {
+
+@media only screen and (max-width: 1790px) {
   .col-one, .col-two {
-    height: 500px;
-  }
-}
-
-@media only screen and (max-width: 902px) {
-
-  .col-one, .col-two {
-    height: 600px;
-    width: 40%;
-  }
-}
-
-@media only screen and (max-width: 899px) {
- iframe {
-   display: none;
- }
-}
-
-@media only screen and (max-width: 766px) {
-  .col-one, .col-two {
-    height: 500px;
     width: 100%;
     margin-top: 20px;
   }
 }
 
-// .heading {
-//   text-align: center;
-//   color: white;
-//   font-size: 1.5rem;
-//   margin: 30px;
 
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 766px) {
   .col-one, .col-two {
-    height: 600px;
+    width: 100%;
+    margin-top: 20px;
   }
 }

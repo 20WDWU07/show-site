@@ -23,7 +23,8 @@ body {
   font-size: 60px;
   line-height: 150px;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  margin-top: 10px; }
 
 .form-container {
   width: 40%;
@@ -50,7 +51,7 @@ body {
   border: none;
   outline: none;
   padding: 10px 0 0 15px;
-  font-size: 14px; }
+  font-size: 20px; }
 
 .form-label {
   position: absolute;
@@ -80,15 +81,14 @@ body {
   right: 14px;
   bottom: 0;
   width: 25%;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   border-radius: 10px;
   height: 50px;
   margin: 0 0 0 30%;
   text-transform: uppercase;
   color: #fff;
-  background: #254D88;
-  border: 2px solid #254D88;
+  background: #3D2923;
   outline: none;
   padding: 0; }
 
@@ -120,13 +120,15 @@ body {
   padding: 20px 0 0 0; }
 
 .campus-location {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 500;
-  padding: 20px 0; }
+  padding: 20px 0;
+  color: #3D2923; }
 
 .phone-number {
-  font-size: 16px;
-  font-weight: 400; }
+  font-size: 25px;
+  font-weight: 400;
+  color: #3D2923; }
 
 .phone-title {
   font-weight: 600;
@@ -154,10 +156,10 @@ a:link {
   font-size: 5rem; }
 
 a:visited {
-  color: whitesmoke; }
+  color: #DBD0C1; }
 
 a:hover {
-  color: whitesmoke;
+  color: #DBD0C1;
   text-decoration: underline;
   text-decoration-color: white; }
 
@@ -169,29 +171,23 @@ h1 {
 h3 {
   font-weight: 400; }
 
-p {
-  font-size: 2rem;
-  font-weight: 100;
-  color: black;
-  background: white;
-  border: none;
-  border-radius: 20px;
-  line-height: 40px;
-  letter-spacing: 1px;
-  text-align: center; }
-
 .home-text {
-  padding: 40px; }
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.3rem; }
 
 .title {
-  background: #3D2923; }
+  background: #3D2923;
+  border: 1px solid red;
+  width: 100%; }
 
 .title h1 {
   margin: 3%;
   padding: 20px; }
 
 #coffee-project {
-  margin: 10%; }
+  margin: 50px; }
 
 .para-coff {
   text-align: center;
@@ -204,15 +200,17 @@ p {
 .list-tasks {
   padding: 10px;
   margin: 10px auto;
-  font-size: 30px;
-  width: 80%; }
+  font-size: 1.2rem;
+  width: 40%; }
+  .list-tasks li {
+    list-style: disc; }
 
 .list-tasks-two {
   padding: 10px;
   margin: 10px auto;
   margin-bottom: 30px;
-  font-size: 30px;
-  width: 80%;
+  font-size: 1.2rem;
+  width: 50%;
   text-align: center; }
 
 iframe {
@@ -220,14 +218,15 @@ iframe {
   display: block; }
 
 .row-coff {
-  width: 100%;
+  width: 80%;
+  margin: auto;
+  display: block;
   background-color: #DBD0C1; }
 
 .col-one {
   float: left;
   background: white;
   width: 45%;
-  height: 400px;
   margin-right: 70px;
   border-radius: 25px; }
 
@@ -235,8 +234,7 @@ iframe {
   float: left;
   background: white;
   border-radius: 25px;
-  width: 45%;
-  height: 400px; }
+  width: 45%; }
 
 .header-coff {
   text-align: center;
@@ -250,24 +248,14 @@ iframe {
 .color-names {
   color: white; }
 
-@media only screen and (max-width: 1153px) {
+@media only screen and (max-width: 1790px) {
   .col-one, .col-two {
-    height: 500px; } }
-@media only screen and (max-width: 902px) {
-  .col-one, .col-two {
-    height: 600px;
-    width: 40%; } }
-@media only screen and (max-width: 899px) {
-  iframe {
-    display: none; } }
-@media only screen and (max-width: 766px) {
-  .col-one, .col-two {
-    height: 500px;
     width: 100%;
     margin-top: 20px; } }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 766px) {
   .col-one, .col-two {
-    height: 600px; } }
+    width: 100%;
+    margin-top: 20px; } }
 button {
   width: 120px;
   height: 40px;
@@ -277,7 +265,7 @@ button {
   margin: 20px;
   font-size: 2rem;
   font-weight: bold;
-  color: whitesmoke;
+  color: #DBD0C1;
   background: black;
   letter-spacing: 0;
   text-align: center; }
@@ -288,8 +276,7 @@ button:hover {
 .row {
   width: 100%;
   height: auto;
-  padding: 10px;
-  border: 1px solid red; }
+  padding: 10px; }
 
 .clearfix::after {
   clear: both;
@@ -307,9 +294,6 @@ div, nav, header, footer {
 .header-socialLinks {
   float: right; }
 
-.container {
-  background: #3D2923; }
-
 .gallery {
   margin: 100px auto; }
 
@@ -318,8 +302,10 @@ div, nav, header, footer {
   height: 150px;
   margin: auto;
   display: block;
-  border: 2px dotted black;
-  border-radius: 50%; }
+  border: none;
+  border-radius: 50%;
+  position: sticky;
+  top: 0; }
 
 .header-banner {
   padding: 0; }
@@ -339,6 +325,14 @@ div, nav, header, footer {
   width: 90%;
   border-radius: 0 30%; }
 
+video {
+  object-fit: cover;
+  width: 100%;
+  /*viewport width*/
+  height: auto;
+  /*viewport height*/
+  margin-top: 60px; }
+
 .hamburger-menu {
   width: 200%;
   color: white;
@@ -352,24 +346,24 @@ div, nav, header, footer {
   color: white; }
 
 .top-nav-close {
-  float: right; }
+  float: right;
+  margin-bottom: -100px; }
 
 .top-nav {
   width: 100%;
   height: 100vh;
-  background: gray;
-  border: 1px solid black;
+  background: #3D2923;
   border-radius: 0px;
   padding: 0;
   margin: 0;
-  z-index: 2;
-  position: fixed;
   top: 0;
   left: 0;
   bottom: auto;
-  right: auto; }
+  right: auto;
+  position: absolute;
+  z-index: 2; }
   .top-nav ul {
-    margin-top: 10%; }
+    margin-top: 2%; }
   .top-nav .top-nav-list {
     width: 50%;
     height: 200px;
@@ -379,11 +373,11 @@ div, nav, header, footer {
     margin: auto;
     font-size: 4rem;
     font-weight: bold;
-    color: whitesmoke;
+    color: #DBD0C1;
     background: none;
     letter-spacing: 0;
     text-align: center;
-    line-height: 20px; }
+    font-size: 2rem; }
 
 .headerSection {
   position: sticky;
@@ -395,16 +389,17 @@ div, nav, header, footer {
 footer {
   width: 100%;
   border: 1px solid black;
-  background: whitesmoke; }
+  background: #3D2923;
+  text-align: center; }
 
 .footer-notice {
   font-size: 1.2rem;
   background: none;
-  color: black; }
+  color: #DBD0C1; }
 
 .footer-copyright {
   font-size: 1rem;
-  color: black;
+  color: #DBD0C1;
   background: none; }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
@@ -464,7 +459,16 @@ footer {
   .contact-details-container {
     width: 85%;
     margin-bottom: 150px;
-    height: 350px; } }
+    height: 350px; }
+
+  .top-nav-list {
+    font-size: 1.5rem; }
+
+  ul {
+    margin-top: 3%; }
+
+  .list-tasks {
+    width: 60%; } }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .col-md-1 {
     width: 8.3333333333%; }
@@ -522,7 +526,10 @@ footer {
   .contact-details-container {
     width: 60%;
     margin-bottom: 100px;
-    height: 320px; } }
+    height: 320px; }
+
+  .top-nav-list {
+    font-size: 1.3rem; } }
 @media screen and (min-width: 769px) and (max-width: 2560px) {
   .col-lg-1 {
     width: 8.3333333333%; }

@@ -44,21 +44,20 @@
 }
 
 // containerStyle
-@mixin containerStyle($w, $h, $back, $border, $bRadius, $p, $m){
+@mixin containerStyle($w, $h, $back, $bRadius, $p, $m){
   width: $w;
   height: $h;
   background: $back;
-  border: $border;
   border-radius: $bRadius;
   padding: $p;
   margin: $m;
 }
 
-@mixin overlay($z, $p, $t, $l, $b, $r){
-  z-index: $z;
-  position: $p;
+@mixin overlay($t, $l, $b, $r, $p, $z){
   top : $t;
   left: $l;
   bottom: $b;
   right: $r;
+  position: $p;
+  z-index: $z;
 }

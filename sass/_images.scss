@@ -1,5 +1,7 @@
 .header-logo-image{
-  @include imageStyle(auto, 150px, auto, block, 2px dotted $secondary, 50% );
+  @include imageStyle(auto, 150px, auto, block, none, 50% );
+  position: sticky;
+  top: 0;
 
 }
 .header-banner{
@@ -19,4 +21,12 @@
   border-radius: 0 30% ;
   // width:100%;
   // clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+video{
+  object-fit: cover;
+  width:100%; /*viewport width*/
+  height:auto;/*viewport height*/
+  margin-top: 60px;
+
 }

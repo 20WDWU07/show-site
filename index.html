@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-   
+
   <!-- stylesheets -->
   <!-- <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -29,11 +29,11 @@
 
 
 
-  
 
 
 
-           
+
+
 
     <!-- *************************************************************** -->
 
@@ -50,26 +50,28 @@
 
         <!-- logo -->
         <div class="header-logo col col-6">
-          <img id="logo" class="header-logo-image" src="images/logo.jpg" alt="Logo">
-        </div> <!-- column1 ends --> 
+          <img id="logo" class="header-logo-image" src="images/logo.png" alt="Logo">
+        </div> <!-- column1 ends -->
 
         <!-- social links -->
         <div class="header-socialLinks col col-6">
           <a href="https://www.facebook.com/YoobeeColleges/"> <i class="fab fa-facebook-f header-social"> </i></a>
-          <a href="https://twitter.com/yoobeecolleges"> <i class="fab fa-youtube header-social"> </i></a>
+          <a href="https://twitter.com/yoobeecolleges"> <i class="fab fa-twitter header-social"></i></a>
         </div><!-- column1 ends -->
 
       </div> <!--row ends -->
 
 
       <div class="header-banner">
-        <img class="header-banner-image" src="images/banner.jpeg" alt="Banner">
+        <video playsinline autoplay muted loop poster="images/pinkFlower.jpg" id="bgvid">
+          <source src="images/coffe-project.mp4" type="video/mp4">
+        </video>
       </div>
     </header>
 
 
 
-      
+
 
     <!-- top navigation overlay-->
 
@@ -78,7 +80,7 @@
         <i class="fas fa-times top-nav-close"></i>
       </div>
       <ul class="top-nav-container">
-        <li class="top-nav-list"><a id="homeLink" class="top-nav-link" href="#home">Web & UX Module1</a></li>
+        <li class="top-nav-list"><a id="homeLink" class="top-nav-link" href="#home">Web & UX</a></li>
         <li class="top-nav-list"><a id="coffeeLink" class="top-nav-link" href="#coffee">CoffeeProject</a></li>
         <li class="top-nav-list"><a id="galleryLink" class="top-nav-link" href="#gallery">Gallery</a></li>
         <li class="top-nav-list"><a id="studyLink" class="top-nav-link" href="#study">Want to study?</a></li>
@@ -90,70 +92,31 @@
 
             <!-- Home Content-->
       <div id="home" class="row clearfix home">
-        <div class="heading">
-          <h1>Web & UX Module 1</h1>
+        <div class="cont-header-con">
+          <h2 class="cont-header">Web & UX Module1</h2>
         </div>
 
         <!-- column1 -->
-        <div class="col col-sm-12 col-md-6 col-lg-12">
+        <div class="col col-sm-12 col-md-12 col-lg-6">
 
           <p class="home-text">
             Module 1 is all about UX (User Experience) Design and runs for 10 weeks. UX research is the key to good design.
-            Students strategize, research, design, develop and test.
-            Users are involved at every stage. We learnt to develop websites based on user experience, prototype & test before coding.
+            Students strategize, research, design, develop and test website.
+            Users are involved at every stage.
             CSS style guides are prepared to follow best practices of Yoobee and web industry.
             Developers choose CSS Methodologies likeBEM OOCSS and use SASS as a CSS pre-processor to organize styling faster with partials and mixins.
             GitHub is used for version control. Implications to the Treaty of Waitangi are considered.
+          </p>
+
+        </div>
         <!-- column2 -->
-        <div class="col col-sm-12 col-md-6 col-lg-12">
+        <div class="col col-sm-12 col-md-12 col-lg-6">
 
           <p class="home-text">
             In this course we learned more about HTML, CSS and JavaScript techniques. The intention is to implement new features to keep on challenging ourselves as we dive deep
             into the web development world. We as students want to invest time and effort into our projects in order to gain experience and build a great portfolio.
           </p>
         </div> <!-- column1 ends -->
-
-       
-
-      <!-- column2 -->
-      <div class="col col-sm-12 col-md-6 col-lg-3">       
-
-        <p class="home-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.
-
-
-        </p>
-      </div> <!-- column1 ends -->
-
-      <!-- column3 -->
-      <div class="col col-sm-12 col-md-6 col-lg-3">
-
-        <p class="home-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.
-
-        </p>
-      </div> <!-- column3 ends -->
-
-      <!-- column4 -->
-      <div class="col col-sm-12 col-md-6 col-lg-3">
-
-        <p class="home-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.
-
-        </p>
-      </div> <!-- column4 ends -->
 
     </div> <!--row ends-->
 
@@ -164,18 +127,19 @@
     <!-- 2. Natalia -->
 
 
-           
+
 
       <!-- *************************************************************** -->
       <!-- Coffee recipe -->
+  <section id="coffee" class="coffee-project">
 
-        <div class="title">
-          <h1>COFFEE PROJECT</h1>
-        </div>
+      <div class="cont-header-con">
+        <h2 class="cont-header">CoffeeProject</h2>
+      </div>
 
 
-        <section id="coffee-project">
-          <p class="para-coff">
+
+          <p class="home-text">
             We started this project to collab and plan tasks with our
             classmates, we are going to be focusing on organization skills,
             ability to delegate, integrity and confident work ethic.
@@ -184,12 +148,13 @@
           <h1 class="tittle-coff-h">OUR PLAN</h1>
 
           <ul class="list-tasks">
-            <li> <span class="color-names">Lajcee and Mohammed: </span> Prototype</li>
-            <li> <span class="color-names">Logan: </span> Video</li>
-            <li> <span class="color-names">Hayley, Alex:</span> Documentation</li>
-            <li> <span class="color-names">Josh: </span> Coding Nav-bar, cover image, Web and UX Module 1 section</li>
-            <li> <span class="color-names">Juan and Natalia: </span> Photography and coding CoffeeProject section</li>
-            <li> <span class="color-names">Leo: </span> Coding "Want to study?" section</li>
+            <li> Prototype: <span class="color-names">Lajcee and Mohammed</span> </li>
+            <li> Video: <span class="color-names">Logan </span></li>
+            <li> Photography and editing: <span class="color-names"> Natalia </span></li>
+            <li> Documentation: <span class="color-names">Hayley, Alex</span></li>
+            <li> Coding Nav-bar, cover image, Web and UX Module 1 section:<span class="color-names">Josh </span></li>
+            <li> Coding CoffeeProject and gallery section: <span class="color-names">Juan </span></li>
+            <li> Coding "Want to study?" section: <span class="color-names">Leo </span></li>
           </ul>
 
             <h1 class="tittle-coff-h">TIPS</h1>
@@ -204,19 +169,19 @@
           <div class="row-coff clearfix">
             <div class="col-one">
               <h1 class="header-coff">Grinds</h1>
-              <p>
+              <p class="home-text">
                 Store bought is more oxidized and loses flavour and is typically more sweet.
                 When choosing coffee beans it is important to
                 choose ethically sourced coffee as there is a high demand for coffee.
                 Rainforests can be cleared for coffee plantations and look for stickers such as fair trade, rainforest alliance, ethically sourced labels.
               </p>
               <h1 class="header-coff">Tamper</h1>
-              <p>
+              <p class="home-text">
                 Squash grinds in the basket and using the tamper tap
                  it hard enough and wiggle it around for a smooth polish
               </p>
               <h1 class="header-coff">Coffee extraction</h1>
-              <p>
+              <p class="home-text">
                 Place the basket in espresso machine and lock it in by turning it
                 This runs water through the coffee grind to extract coffee
                 Wait till the coffee turns a blonde colour and stop to avoid burning the coffee
@@ -225,39 +190,37 @@
 
             <div class="col-two">
               <h1 class="header-coff">Milk</h1>
-              <p>
+              <p class="home-text">
                 For foam place the wand higher in the jug this pushes air into the milk and creates bubbles.
                 Place on 45 degree angle and aim for a consistent swirl until the jug is too hot to touch to avoid burning the milk
               </p>
               <h1 class="header-coff">Maintenance</h1>
-              <p>
+              <p class="home-text">
                 After use flush out coffee grinds and clean the steaming wand
                 For a deep clean most machines have a cleaning cycle or you can run baking soda or vinegar through the machine.
               </p>
               <h1 class="header-coff">Variations of coffee</h1>
-            <p>
+            <p class="home-text">
               There's a lot of variations of coffee including cappuccinos, americanos, mochas, flat whites, and lattes
-              These are all determined by the amount of coffee, ,milk and foam.
+              These are all determined by the amount of coffee, milk and foam.
             </p>
             </div>
           </div>
 
-          <iframe width="760" height="415"
-            1980 
 
-          src="https://www.youtube-nocookie.com/embed/gvPetTPFsZM"
-            frameborder="0" allow="accelerometer; autoplay;
-            clipboard-write; encrypted-media; gyroscope;
-            picture-in-picture"
-            allowfullscreen></iframe>
+
+          <video controls>
+          <source src="images/FinishedCoffeeVideo.mp4" type="video/mp4">
+          </video>
+
         </section>
 
 
 
 
 
-       
-      
+
+
 
         <!-- *************************************************************** -->
 
@@ -267,45 +230,75 @@
 
         <!-- gallery -->
 
-        <!-- Header -->
-          <div class="gallery-header">
-            <h1>Gallery</h1>
-          </div>
+          <!-- Header -->
+            <!-- <div class="gallery-header">
+              <h1>Gallery</h1>
+            </div> -->
 
-          <!-- Photo Grid -->
-          <div class="coffee">
-            <div class="column">
-              <img src="images/coffee-gal1.jpg" style="width:100%">
-              <img src="images/coffee-gal2.jpg" style="width:100%">
-              <img src="images/coffee-gal3.jpg" style="width:100%">
+            <section id="gallery">
+            <div class="cont-header-con">
+              <h2 class="cont-header">Gallery</h2>
             </div>
-            <div class="column">
-              <img src="images/coffee-gal6.jpg" style="width:100%">
-              <img src="images/coffee-gal7.jpg" style="width:100%">
-              <img src="images/coffee-gal8.jpg" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="images/coffee-gal1.jpg" style="width:100%">
-              <img src="images/coffee-gal2.jpg" style="width:100%">
-              <img src="images/coffee-gal3.jpg" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="images/coffee-gal6.jpg" style="width:100%">
-              <img src="images/coffee-gal7.jpg" style="width:100%">
-              <img src="images/coffee-gal8.jpg" style="width:100%">
-            </div>
-          </div>
+            <!-- Photo Grid -->
+            <div class="coffee">
+              <div class="column">
+                <img src="images/coffee-project01.jpg" style="width:100%">
+                <img src="images/coffee-project02.jpg" style="width:100%">
+                <img src="images/coffee-project03.jpg" style="width:100%">
+              <!-- </div> -->
+              <!-- <div class="column"> -->
+                <img src="images/coffee-project04.jpg" style="width:100%">
+                <img src="images/coffee-project05.jpg" style="width:100%">
+                <img src="images/coffee-project06.jpg" style="width:100%">
+                <img src="images/coffee-project18.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="images/coffee-project07.jpg" style="width:100%">
+                <!-- <img src="images/coffee-project08.jpg" style="width:100%"> -->
+                <img src="images/coffee-project21.jpg" style="width:100%">
+                <img src="images/coffee-project09.jpg" style="width:100%">
+              <!-- </div>
+              <div class="column"> -->
+                <!-- <img src="images/coffee-project10.jpg" style="width:100%"> -->
+                <img src="images/coffee-project11.jpg" style="width:100%">
+                <img src="images/coffee-project12.jpg" style="width:100%">
+                <img src="images/extra02.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="images/coffee-project13.jpg" style="width:100%">
+                <img src="images/coffee-project14.jpg" style="width:100%">
+                <img src="images/coffee-project15.jpg" style="width:100%">
+              <!-- </div>
+              <div class="column"> -->
+                <img src="images/coffee-project16.jpg" style="width:100%">
+                <img src="images/coffee-project17.jpg" style="width:100%">
+                <img src="images/extra.jpg" style="width:100%">
+                              <!-- <img src="images/coffee-project18.jpg" style="width:100%"> -->
+              </div>
+              <div class="column">
+                <img src="images/coffee-project19.jpg" style="width:100%">
+                <img src="images/coffee-project20.jpg" style="width:100%">
+                <!-- <img src="images/coffee-project21.jpg" style="width:100%"> -->
+                <img src="images/coffee-project08.jpg" style="width:100%">
+              <!-- </div>
+              <div class="column"> -->
+                <img src="images/coffee-project22.jpg" style="width:100%">
+                <img src="images/coffee-project23.jpg" style="width:100%">
+                <img src="images/coffee-project24.jpg" style="width:100%">
+              </div>
 
+            </div>
 
+            </section>
 
           <!-- *************************************************************** -->
 
                 <!-- 4. Leo -->
 
           <!-- *************************************************************** -->
-  
 
-    <section class="contact-container" id="contact">
+
+    <section class="contact-container" id="study">
 
       <div class="cont-header-con">
         <h2 class="cont-header">Want to study Web and UX?</h2>
@@ -358,12 +351,12 @@
         <p class="para footer-notice">  This website is an academic project developed by students of Web&UX, Yoobee Colleges, Wellington.
 
         </p> <br><br>
-        <p class="para footer-copyright"> © 2020 Web & UX, Yoobee (20WDWU07). All rights reserved.
+        <p class="para footer-copyright"> © 2020 Web & UX, Yoobee (20WDWU07). All rights reserved. Inspired by: Web and Ux tutor (Beula)
 
       </footer>
-   
 
-        
+
+
       </main>
 
 

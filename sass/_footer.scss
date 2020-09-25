@@ -1,20 +1,18 @@
 footer{
-  // position: fixed;
-
-
   width:100%;
   border: 1px solid $secondary;
-  background: $tertiary;
+  background: $primary;
+  text-align: center;
 
 }
 .footer-notice{
   font-size: 1.2rem;
   background: none;
-  color:$secondary;
+  color:$tertiary;
 
 }
 .footer-copyright{
   font-size: 1rem;
-  color:$secondary;
+  color:$tertiary;
   background: none;
 }
